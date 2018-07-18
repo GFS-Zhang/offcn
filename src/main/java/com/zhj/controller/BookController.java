@@ -24,6 +24,7 @@ public class BookController {
 		return bookService.getAllBook();
 	}
 	
+//	获取饼状图
 	@RequestMapping("/getbook2")
 	@ResponseBody
 	public List<ResultBook> getBook(){
