@@ -23,7 +23,7 @@ public class BookController {
 	public List<Book> getAllBook(){
 		return bookService.getAllBook();
 	}
-	
+//	
 	@RequestMapping("/getbook2")
 	@ResponseBody
 	public List<ResultBook> getBook(){
