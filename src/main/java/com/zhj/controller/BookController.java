@@ -17,6 +17,7 @@ public class BookController {
 	@Autowired
 	private BookService bookService;
 	
+//	获取柱状图、折线图
 	@RequestMapping("/getbook1")
 	@ResponseBody
 	public List<Book> getAllBook(){
